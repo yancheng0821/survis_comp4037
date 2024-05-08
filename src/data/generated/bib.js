@@ -1,5 +1,6 @@
 ﻿const generatedBibEntries = {
     "Aggarwal2021Hyperledger": {
+        "abstract": "Hyperledger is one of the biggest projects in the blockchain industry, which is comprised of a set of open source tools and subprojects. It includes leaders in different sectors who are aiming to build a robust, business-driven blockchain framework. It is an umbrella project, which aims to provide enterprise solutions and universal guidelines for blockchain implementation. The key projects within the Hyperledger framework are Hyperledger Fabric, Hyperledger Iroha, Hyperledger Indy, Hyperledger Sawtooth, Hyperledger Cello, Hyperledger Explorer, Hyperledger Composer. In this chapter, we have discussed the architecture, goals, and need for hyperledger projects in real-time applications.",
         "author": "Aggarwal, S. and Kumar, N.",
         "doi": "10.1016/bs.adcom.2020.08.016",
         "journal": "Advances in Computers",
@@ -13,6 +14,7 @@
         "year": "2021"
     },
     "Androulaki2018Hyperledger": {
+        "abstract": "Fabric is a modular and extensible open-source system for deploying and operating permissioned blockchains and one of the Hyperledger projects hosted by the Linux Foundation (www.hyperledger.org). Fabric is the first truly extensible blockchain system for running distributed applications. It supports modular consensus protocols, which allows the system to be tailored to particular use cases and trust models. Fabric is also the first blockchain system that runs distributed applications written in standard, general-purpose programming languages, without systemic dependency on a native cryptocurrency. This stands in sharp contrast to existing block-chain platforms that require \"smart-contracts\" to be written in domain-specific languages or rely on a cryptocurrency. Fabric realizes the permissioned model using a portable notion of membership, which may be integrated with industry-standard identity management. To support such flexibility, Fabric introduces an entirely novel blockchain design and revamps the way blockchains cope with non-determinism, resource exhaustion, and performance attacks. This paper describes Fabric, its architecture, the rationale behind various design decisions, its most prominent implementation aspects, as well as its distributed application programming model. We further evaluate Fabric by implementing and benchmarking a Bitcoin-inspired digital currency. We show that Fabric achieves end-to-end throughput of more than 3500 transactions per second in certain popular deployment configurations, with sub-second latency, scaling well to over 100 peers.",
         "author": "Androulaki, Elli and Barger, Artem and Bortnikov, Vita and Cachin, Christian and Christidis, Konstantinos and De Caro, Angelo and Enyeart, David and Ferris, Christopher and Laventman, Glenn and Manevich, Yacov and others",
         "booktitle": "Proceedings of the thirteenth EuroSys conference",
         "doi": "10.1145/3190508.3190538",
@@ -25,6 +27,7 @@
         "year": "2018"
     },
     "Coggiola2019Blockchain": {
+        "abstract": "With the incredible growth of internet shopping over the last years, the delivery sector has gained increasing importance between existing economies, and the same has happened with the pressure, exigencies and expectations from consumers towards home delivery schemes. It is mainly because of this that it is important to pursuit the development of a delivery system that is consistent with this continuous rise of online commerce, while at the same time avoiding the possible negative effects caused by freight transports. It is under this context that the blockchain technology is to be analyzed. Being widely examined and implemented in the finance field, this technology shows great potential for its exploitation within different areas, including logistics. This dissertation attempts to provide with a general notion of the blockchain\u2019s characteristics, its capability and possible applications in the logistics field, particularly into parcel delivery systems. After an information gathering, and properly introducing the principal subjects of interest, this paper makes use of a case study and application case scenario so as to recognize and explore existing projects and research on the matter, as well as to set the ground for further investigation and developments. Final analysis includes the impact of the technology\u2019s implementation upon the actors inside a delivery system, its complexity and compatibility regarding current practices, and how the main problematics concerning delivery services are addressed by employing a blockchain-based alternative. Key terms: Blockchain Technology; Parcel Delivery; Urban Logistics; Smart Contracts; Supply Chain; Freight Transportation.",
         "author": "Coggiola, D. S.",
         "keywords": "type: Blockchain Technology, Parcel Delivery, Urban Logistics, Smart Contracts, Supply Chain, Freight Transportation.",
         "school": "Politecnico di Torino",
@@ -34,6 +37,7 @@
         "year": "2019"
     },
     "Ghosh2020Security": {
+        "abstract": "In contemporary era of technologies, blockchain has acquired tremendous attention from various domains. It has wide spectrum of applications ranging from finance to social services and has greatly influenced the emerging business world. Since, blockchain technology is getting embedded in the e-commerce services, the cryptocurrencies are gaining huge prevalence. Bitcoin and ethereum are few such crypto currencies, which have utilized decentralized nature of blockchain. Blockchain can be considered as a distributed database system containing immutable ledgers, which are prone to attack by malicious users. Although, from the initial digital currency to the present smart contract, the utilities of blockchain have been harnessed, the innovative technology has to rely on cryptography for its security. There are several reports, which emphases on the vulnerabilities and security of blockchain, however, there is a lack of a comprehensive and methodical survey in both application and technical views. In this survey article, the authors cover various aspects related to blockchain including its taxonomies and the situations in which a particular category of blockchain should be applied. The authors also focusses on the structure of blockchain and the working of the ongoing transactions in the cryptocurrency network. In addition, the authors also specify various categories of consensus protocols, smart contracts, forks, techniques for generating the consensus. A detailed taxonomy of blockchain along with their features and related real-world applications is also discussed. In addition, existing key platforms of blockchain related to the cryptocurrencies, hyperledger and multichain are also discussed. Existing emerging vulnerabilities of blockchain related to the recent attacks on bitcoin and etherum is also presented along with the defensive methodologies and future trends in blockchain.",
         "author": "Ghosh, A. and Gupta, S. and Dua, A. and Kumar, N.",
         "doi": "10.1016/j.jnca.2020.102635",
         "journal": "Journal of Network and Computer Applications",
@@ -46,6 +50,7 @@
         "year": "2020"
     },
     "Javaid2019Optimizing": {
+        "abstract": "Blockchain technologies are on the rise, and Hyperledger Fabric is one of the most popular permissioned blockchain platforms. In this paper, we re-architect the validation phase of Fabric based on our analysis from fine-grained breakdown of the validation phase's latency. Our optimized validation phase uses a chaincode cache during validation of transactions, initiates state database reads in parallel with validation of transactions, and writes to the ledger and databases in parallel. Our experiments reveal performance improvements of 2x for CouchDB and 1.3x for LevelDB. Notably, our optimizations can be adopted in a future release of Hyperledger Fabric.",
         "author": "Javaid, H. and Hu, C. and Brebner, G.",
         "booktitle": "2019 IEEE 27th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)",
         "doi": "10.1109/MASCOTS.2019.00038",
@@ -58,6 +63,7 @@
         "year": "2019"
     },
     "Nasir2018Performance": {
+        "abstract": "Blockchain is a key technology that has the potential to decentralize the way we store, share, and manage information and data. One of the more recent blockchain platforms that has emerged is Hyperledger Fabric, an open source, permissioned blockchain that was introduced by IBM, first as Hyperledger Fabric v0.6, and then more recently, in 2017, IBM released Hyperledger Fabric v1.0. Although there are many blockchain platforms, there is no clear methodology for evaluating and assessing the different blockchain platforms in terms of their various aspects, such as performance, security, and scalability. In addition, the new version of Hyperledger Fabric was never evaluated against any other blockchain platform. In this paper, we will first conduct a performance analysis of the two versions of Hyperledger Fabric, v0.6 and v1.0. The performance evaluation of the two platforms will be assessed in terms of execution time, latency, and throughput, by varying the workload in each platform up to 10,000 transactions. Second, we will analyze the scalability of the two platforms by varying the number of nodes up to 20 nodes in each platform. Overall, the performance analysis results across all evaluation metrics, scalability, throughput, execution time, and latency, demonstrate that Hyperledger Fabric v1.0 consistently outperforms Hyperledger Fabric v0.6. However, Hyperledger Fabric v1.0 platform performance did not reach the performance level in current traditional database systems under high workload scenarios.",
         "author": "Nasir, Q. and Qasse, I. A. and Abu Talib, M. and Nassif, A. B.",
         "doi": "10.1155/2018/3976093",
         "journal": "Security and Communication Networks",
@@ -68,6 +74,7 @@
         "year": "2018"
     },
     "Ngamsuriyaroj2018Package": {
+        "abstract": "Blockchain technology has been recently applied in many applications including cryptocurrencies like Bitcoin, Internet of Things, healthcare, and supply chain management. The essential properties are the capabilities in doing verification and maintaining data integrity which would be hardly guaranteed in other systems. As millions of packages are daily sent, information related to those packages must be protected since they are prone to attacks such as phishing. In addition, current package delivery systems are mostly implemented on a centralized platform which would be vulnerable to different kind of attacks. In this paper, we propose a package delivery system based on the blockchain technology which would help enhance the security with data integrity and the verification of both users and data. We evaluate the performance of our system using two operations: insertions and reads/writes under high workload. We found that our system performance for both insertions and reads/writes is highly sensitive to the number of chains rather than the number of transactions per chain. But, the time spent for reads/writes is much higher than the time spent for insertions.",
         "author": "Ngamsuriyaroj, S. and Likittheerameth, T. and Kahutson, A. and Pathummasut, T.",
         "booktitle": "2018 Seventh ICT International Student Project Conference (ICT-ISPC)",
         "doi": "10.1109/ICT-ISPC.2018.8523944",
@@ -79,6 +86,7 @@
         "year": "2018"
     },
     "Wu2019Data": {
+        "abstract": "Supply chain management (SCM) is fundamental for gaining financial, environmental and social benefits in the supply chain industry. However, traditional SCM mechanisms usually suffer from a wide scope of issues such as lack of information sharing, long delays for data retrieval, and unreliability in product tracing. Recent advances in blockchain technology show great potential to tackle these issues due to its salient features including immutability, transparency, and decentralization. Although there are some proof-of-concept studies and surveys on blockchain-based SCM from the perspective of logistics, the underlying technical challenges are not clearly identified. In this paper, we provide a comprehensive analysis of potential opportunities, new requirements, and principles of designing blockchain-based SCM systems. We summarize and discuss four crucial technical challenges in terms of scalability, throughput, access control, data retrieval and review the promising solutions. Finally, a case study of designing blockchain-based food traceability system is reported to provide more insights on how to tackle these technical challenges in practice.",
         "author": "Wu, H. and Cao, J. and Yang, Y. and Tung, C. L. and Jiang, S. and Tang, B. and Deng, Y.",
         "booktitle": "2019 28th International Conference on Computer Communication and Networks (ICCCN)",
         "doi": "10.1109/ICCCN.2019.8846964",
@@ -91,7 +99,9 @@
         "year": "2019"
     },
     "Yaga2019Blockchain": {
+        "abstract": "Blockchains are tamper evident and tamper resistant digital ledgers implemented in a distributed fashion (i.e., without a central repository) and usually without a central authority (i.e., a bank, company, or government). At their basic level, they enable a community of users to record transactions in a shared ledger within that community, such that under normal operation of the blockchain network no transaction can be changed once published. This document provides a high-level technical overview of blockchain technology. The purpose is to help readers understand how blockchain technology works.",
         "author": "Yaga, David and Mell, Peter and Roby, Nicole and Scarfone, Karen",
+        "doi": "10.48550/arXiv.1906.11078",
         "journal": "arXiv preprint arXiv:1906.11078",
         "keywords": "type: blockchain, consensus model, cryptocurrency, cryptographic hash function, asymmetric-key, cryptography, distributed ledger, distributed consensus algorithm, proof of work, proof of stake, round robin, proof of authority, proof of identity, proof of elapsed time, soft fork, hard fork, smart contracts, data oracle.",
         "title": "Blockchain Technology Overview",
@@ -100,6 +110,7 @@
         "year": "2019"
     },
     "YliHoumo2016Blockchain": {
+        "abstract": "Blockchain is a decentralized transaction and data management technology developed first for Bitcoin cryptocurrency. The interest in Blockchain technology has been increasing since the idea was coined in 2008. The reason for the interest in Blockchain is its central attributes that provide security, anonymity and data integrity without any third party organization in control of the transactions, and therefore it creates interesting research areas, especially from the perspective of technical challenges and limitations. In this research, we have conducted a systematic mapping study with the goal of collecting all relevant research on Blockchain technology. Our objective is to understand the current research topics, challenges and future directions regarding Blockchain technology from the technical perspective. We have extracted 41 primary papers from scientific databases. The results show that focus in over 80% of the papers is on Bitcoin system and less than 20% deals with other Blockchain applications including e.g. smart contracts and licensing. The majority of research is focusing on revealing and improving limitations of Blockchain from privacy and security perspectives, but many of the proposed solutions lack concrete evaluation on their effectiveness. Many other Blockchain scalability related challenges including throughput and latency have been left unstudied. On the basis of this study, recommendations on future research directions are provided for researchers.",
         "author": "Yli-Huumo, J. and Ko, D. and Choi, S. and Park, S. and Smolander, K.",
         "doi": "10.1371/journal.pone.0163477",
         "journal": "PloS One",
