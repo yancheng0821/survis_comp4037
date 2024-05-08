@@ -1,1 +1,1 @@
-const availableImg = ["Beck2016Visual"];
+const availableImg = ["Coggiola2019Blockchain","Androulaki2018Hyperledger","Beck2016Visual","Ghosh2020Security","Aggarwal2021Hyperledger","Yaga2019Blockchain"];
